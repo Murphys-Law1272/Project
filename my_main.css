@@ -148,7 +148,9 @@
 .notebook {
     background-image: url("images/png/book.png");
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-size: contain;
+
+
     max-width: 1200px;
     min-height: 550px;
     margin: 0 auto;
@@ -423,4 +425,16 @@
     font-weight: 600;
     font-size: 15px;
     color: #fff;
+}
+
+.card-img-top {
+    object-fit: cover;
+    max-height: 135px;
+    max-width: 135px;
+}
+
+.carousel-inner .card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
